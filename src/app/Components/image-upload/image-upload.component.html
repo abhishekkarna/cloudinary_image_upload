@@ -1,6 +1,6 @@
 <div class="form-container">
   <form [formGroup]="imageForm" method="post">
-    <input type="file" (change)="handleFileInput($event.target.files)" formControlName="image">
+    <input accept="image/*"  type="file" (change)="handleFileInput($event.target.files)" formControlName="image">
     <button (click)="imageUpload()" type="submit">Submit</button>
   </form>
 
