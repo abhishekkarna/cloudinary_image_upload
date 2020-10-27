@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  cloudinary_base_url: "https://api.cloudinary.com/v1_1/drehfrgeq/image/upload",
-  cloudinary_cloud_name: "drehfrgeq"
+  cloudinary_base_url: "",
+  cloudinary_cloud_name: ""
 };
 
 /*
